@@ -241,6 +241,7 @@ NSString* const kAPPBackgroundEventDeactivate = @"deactivate";
  */
 + (NSString*) wkProperty
 {
+    NSString* str;
     if (@available(iOS 12.2, *)) {
       str = @"YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5";
     } else {
