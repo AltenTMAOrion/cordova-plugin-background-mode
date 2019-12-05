@@ -44,7 +44,7 @@
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
                 <string>remote-notification</string>
-                <string>App processes data in the background</string>
+                <string>background-processing</string>
             </array>
         </config-file>
 
