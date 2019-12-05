@@ -43,7 +43,8 @@
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
-                <string>audio</string>
+                <string>remote-notification</string>
+                <string>background-processing</string>
             </array>
         </config-file>
 
